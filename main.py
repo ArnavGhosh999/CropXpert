@@ -18,7 +18,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 classifier = RandomForestClassifier()
 classifier.fit(X_train, y_train)
 
-# Define input boxes for user input
+# Streamlit application
 st.title('Crop Recommendation System')
 
 # Input boxes with default values and type conversion
